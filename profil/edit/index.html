@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profil - Kerajinan Desa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nusawara</h1>
+        <nav>
+            <a href="../landing/index.html">Beranda</a>
+            <a href="../product/index.html">Produk</a>
+            <a href="../transaksi/index.html">Transaksi</a>
+            <a href="../profil/">Profil</a>
+            <a href="../cart/">Keranjang</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Edit Profil</h2>
+            <form>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" value="Budi Santoso" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="budi.santoso@email.com" required>
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" value="Jl. Melati No. 10, Desa Sukamaju">
+                <label for="password">Password Baru</label>
+                <input type="password" id="password" name="password">
+                <label for="foto">Foto Profil (Opsional)</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+                <button type="submit">Simpan Perubahan</button>
+                <a href="../index.html" class="back-link">← Kembali ke Profil</a>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kerajinan Tangan Desa</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+</head>
+
+<body>
+    <h2>Halaman Login</h2>
+    <form action="beranda.html" method="get">
+        <label for="loginEmail">Email:</label><br />
+        <input type="email" id="loginEmail" name="loginEmail" required /><br /><br />
+
+        <label for="loginPassword">Password:</label><br />
+        <input type="password" id="loginPassword" name="loginPassword" minlength="6" required /><br /><br />
+
+        <button type="submit">Login</button>
+        <button type="button" onclick="alert('Fitur lupa password belum tersedia')">
+            Lupa Password
+        </button>
+    </form>
+
+    <p>
+        Belum punya akun?
+        <a href="../regist/index.html">Daftar</a>
+    </p>
+</body>
+
+</html>
