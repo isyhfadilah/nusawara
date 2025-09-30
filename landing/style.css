@@ -30,7 +30,7 @@ header nav a {
 
 #hero {
     text-align: center;
-    padding: 6rem 2rem;
+    padding: 10rem 0;
 }
 
 #hero h2 {
@@ -50,7 +50,7 @@ header nav a {
 
 
 section {
-    padding: 50px 100px;
+    padding: 20px 100px;
 }
 
 section h2 {
