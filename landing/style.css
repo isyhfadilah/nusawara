@@ -48,7 +48,6 @@ header nav a {
     margin-top: 0;
 }
 
-
 section {
     padding: 20px 100px;
 }
@@ -89,6 +88,22 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    line-height: 1.8;
+    text-transform: capitalize;
+    text-align: left;
+    color: #fff;
+}
+
+input {
+    font-size: 1rem;
+    color: #0e1d13;
+    background-color: #fff;
+    line-height: 1.6;
 }
 
 footer {

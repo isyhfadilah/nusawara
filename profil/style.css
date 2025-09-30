@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #0e1d13;
+    text-align: left;
+}
+
+header {
+    background-color: #d8a966;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    text-align: left;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #a52a2c;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #ffffff;
+    color: #0e1d13;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+}
+
+main h2 {
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.profile-info strong {
+    color: #0e1d13;
+}
+
+.btn-edit {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #0e1d13;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-edit:hover {
+    background-color: #a52a2c;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0E1D13;
+    color: #FFFFFF;
+    padding: 10px 100px;
+}
