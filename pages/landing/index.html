@@ -5,23 +5,35 @@
     <meta charset="UTF-8" />
     <title>Halaman Utama</title>
     <link rel="stylesheet" href="../../style/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
     <header>
         <h1>Nusawara</h1>
         <nav>
-            <a href="../landing/index.html">Beranda</a>
-            <a href="../product/index.html">Produk</a>
-            <a href="../transaksi/index.html">Transaksi</a>
-            <a href="../profil/index.html">Profil</a>
-            <a href="../cart/index.html">Keranjang</a>
+            <ul class="nav-links">
+                <li><a href="../landing/index.html">Beranda</a></li>
+                <li><a href="../product/index.html">Produk</a></li>
+                <li><a href="../transaksi/index.html">Transaksi</a></li>
+            </ul>
         </nav>
+        <div class="icons">
+            <a href="../cart/index.html"><i class="ph ph-shopping-cart"></i></a>
+            <a href="../profil/index.html"><i class="ph ph-user"></i></a>
+        </div>
     </header>
 
     <section id="hero">
-        <h2>Nusawara</h2>
-        <p>Temukan produk terbaik dengan mudah.</p>
+        <h2><span>Nu</span>sawara</h2>
+        <p>Merawat dan Menjunjung Warisan Nusantara</p>
+        <div class="btn-group">
+            <a href="" class="btn">Jelajahi Warisan</a>
+            <a href="" class="btn-outline">Belanja Sekarang</a>
+        </div>
+
+        <img src="../../images/hero-image.png" alt="">
     </section>
 
     <section>

@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial ', sans-serif;
     background-color: #0E1D13;
@@ -5,32 +11,67 @@ body {
 }
 
 header {
+    background-color: #0E1D13;
+    color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px 20px 100px;
-    text-align: center;
+    align-items: center;
+    padding: 24px 70px;
+    border-bottom: 0.1px solid #fff;
+    font-family: "Arial", sans-serif;
+    position: fixed;
+    width: 100%;
 }
 
 header h1 {
-    font-family: 'Georgia', serif;
-    font-size: 1.5rem;
+    color: #d4a15f;
+    font-size: 18px;
+    letter-spacing: 1px;
     font-weight: 700;
-    margin: 0 0 0.5rem 0;
+    font-family: Georgia;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
 }
 
-header nav a {
-    color: #fff;
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
     text-decoration: none;
+    color: #fff;
     font-weight: 600;
-    margin: 0 1rem;
-    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+
+.icons a {
+    color: #fff;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover,
+.nav-links a:hover {
+    color: #d4a15f;
 }
 
 #hero {
     text-align: center;
-    padding: 10rem 0;
+    padding: 256px 77px 208px 77px;
 }
 
 #hero h2 {
@@ -42,11 +83,58 @@ header nav a {
     text-transform: uppercase;
 }
 
+#hero h2 span {
+    color: #d4a15f;
+}
+
 #hero p {
     font-size: 1.25rem;
-    font-style: italic;
     margin-top: 0;
 }
+
+#hero img {
+    width: 1236.418px;
+    height: 347.074px;
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d4a15f;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-outline {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 24px;
+    border: 2px solid #d4a15f;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
 
 section {
     padding: 20px 100px;
