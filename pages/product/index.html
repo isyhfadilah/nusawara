@@ -27,12 +27,22 @@
     </header>
 
     <main>
-        <section>
-            <form id="searchForm">
-                <input type="text" id="searchInput" placeholder="Cari produk...">
-                <button type="submit">Cari</button>
-            </form>
+        <section class="filters-section">
+            <div class="search-bar">
+                <i class="ph ph-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="Cari warisan">
+            </div>
+            <div class="filter-tags">
+                <i class="ph ph-sliders-horizontal"></i>
+                <button class="tag-btn active">Semua</button>
+                <button class="tag-btn">Kerajinan Tangan</button>
+                <button class="tag-btn">Dekorasi Rumah</button>
+                <button class="tag-btn">Aksesori</button>
+                <button class="tag-btn">Seni & Koleksi</button>
+                <button class="tag-btn">Souvenir</button>
+            </div>
         </section>
+
         <section id="product-list">
             <div class="product-grid">
                 <article class="product-card">
@@ -170,8 +180,26 @@
             </div>
         </section>
     </main>
+
+    <section class="cta">
+        <h1>Mari Dukung Kerajinan <span>Nusawara</span></h1>
+        <div class="btn-group">
+            <a href="../landing/index.html" class="btn">Jelajahi warisan</a>
+            <a href="../product/index.html" class="btn-outline">Belanja sekarang</a>
+        </div>
+    </section>
+
+
     <footer>
-        <p>&copy; 2025 Kerajinan Tangan Desa</p>
+        <h1>Nusawara</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../landing/index.html">Beranda</a></li>
+                <li><a href="../product/index.html">Produk</a></li>
+                <li><a href="../transaksi/index.html">Transaksi</a></li>
+                <li><a href="../profil/index.html">Profil</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 
