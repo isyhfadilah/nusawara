@@ -286,26 +286,6 @@ nav {
     width: 40%;
 }
 
-.cta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 1px #d4a15f;
-    border-radius: 16px;
-    margin: 50px 130px;
-    padding: 70px 60px;
-}
-
-.cta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 1px #d4a15f;
-    border-radius: 16px;
-    margin: 50px 130px;
-    padding: 70px 60px;
-}
-
 section {
     padding: 100px 130px;
 }
