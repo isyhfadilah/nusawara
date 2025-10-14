@@ -28,6 +28,7 @@ header {
     font-family: "Arial", sans-serif;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 header h1 {
@@ -120,6 +121,7 @@ nav {
     text-decoration: none;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .btn-outline {
@@ -201,9 +203,8 @@ nav {
 }
 
 .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
     justify-items: center;
     padding: 40px 0;
 }
@@ -214,7 +215,6 @@ nav {
     border-radius: 10px;
     padding: 16px 24px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: -1;
 }
 
 .product-card:hover {
@@ -266,7 +266,7 @@ nav {
 }
 
 .price {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -295,7 +295,6 @@ nav {
     margin: 50px 130px;
     padding: 70px 60px;
 }
-
 
 section {
     padding: 100px 130px;
@@ -334,9 +333,8 @@ button {
     background-color: #FFFFFF;
     color: #0E1D13;
     font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-weight: medium;
+    cursor: pointer;
 }
 
 label {
@@ -403,7 +401,7 @@ a {
 
 .tag-btn {
     background: none;
-    border: 1px solid var(--border-color);
+    border: 1px solid #d4a15f;
     color: var(--text-light);
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -411,12 +409,17 @@ a {
 }
 
 .tag-btn.active {
-    background-color: var(--accent-gold);
-    color: var(--bg-dark);
-    border-color: var(--accent-gold);
-    font-weight: 600;
+    background-color: #d4a15f;
 }
 
+section.filters-section {
+    padding: 100px 130px 30px 130px;
+}
+
+section.list-products {
+    padding: 0 130px;
+
+}
 
 footer {
     display: flex;
